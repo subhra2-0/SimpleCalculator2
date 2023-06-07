@@ -35,6 +35,10 @@ public class BasicCalculator {
         switch (op) {
         // case to add two numbers
 
+        case '+':
+            o = num1 + num2;
+
+
      
 
  
@@ -42,9 +46,13 @@ public class BasicCalculator {
         // case to subtract two numbers
         case '-':
             o = num1 - num2;
+
             break;
 
  
+
+
+     
 
       
 
@@ -68,6 +76,7 @@ public class BasicCalculator {
             break;
 
 
+
  
 
         default:
@@ -85,6 +94,9 @@ public class BasicCalculator {
         System.out.println(num1 + " " + op + " " + num2
                         + " = " + o);
     }
+
+}
+
 
 }
 }
