@@ -1,3 +1,4 @@
+
 public class BasicCalculator {
     // main function
     public static void main(String[] args)
@@ -33,6 +34,24 @@ public class BasicCalculator {
 
         switch (op) {
         // case to add two numbers
+
+     
+
+ 
+
+        // case to subtract two numbers
+        case '-':
+            o = num1 - num2;
+            break;
+
+ 
+
+      
+
+ 
+
+    
+
       
 
  
@@ -47,6 +66,7 @@ public class BasicCalculator {
         case '/':
             o = num1 / num2;
             break;
+
 
  
 
@@ -65,4 +85,7 @@ public class BasicCalculator {
         System.out.println(num1 + " " + op + " " + num2
                         + " = " + o);
     }
+
 }
+}
+
