@@ -1,4 +1,6 @@
 
+
+
 public class BasicCalculator {
     // main function
     public static void main(String[] args)
@@ -35,6 +37,14 @@ public class BasicCalculator {
         switch (op) {
         // case to add two numbers
 
+    
+
+ 
+
+        // case to multiply two numbers
+        case '*':
+            o = num1 * num2;
+
         case '+':
             o = num1 + num2;
 
@@ -47,9 +57,14 @@ public class BasicCalculator {
         case '-':
             o = num1 - num2;
 
+
             break;
 
  
+
+
+     
+
 
 
      
@@ -77,6 +92,7 @@ public class BasicCalculator {
 
 
 
+
  
 
         default:
@@ -99,5 +115,9 @@ public class BasicCalculator {
 
 
 }
+
+
 }
+}
+
 
